@@ -12,6 +12,8 @@ import { P404Component } from './p404/p404.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { HeroComponent } from './hero/hero.component';
+import { ContactComponent } from './contact/contact.component';
+import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { HeroComponent } from './hero/hero.component';
     P404Component,
     FooterComponent,
     HomepageComponent,
-    HeroComponent
+    HeroComponent,
+    ContactComponent,
+    BreadcrumbsComponent
   ],
   imports: [
     BrowserModule,
